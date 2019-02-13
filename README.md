@@ -1,9 +1,10 @@
-These are modules that I include as part of my special build of RattleSnakeOS. Add the following lines to the end of the '.rattlesnakeos.toml'.
+These are modules that I include as part of my special build of RattleSnakeOS.
+Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
       modules = ["BeHeKeyboard","Chronus","DavX5","FolderSync","FreedomPop",
              "GappsBrowser","GoogleVoice","KeePassDX","LibreOfficeViewer","Maps",
-             "MuPDFMini","PrivacyBrowser","SimpleCalendar","SimpleTask","SkyTube",
+             "MuPDFMini","NortonAppLock","PrivacyBrowser","SimpleCalendar","SimpleTask","SkyTube",
              "Slide","SpaRSS","TCDrive","TCDropbox","TCWebDAV","TotalCommander","Wallabag","Yalp","iAWriter"]
       repo = "https://github.com/simmule-turner/snake-apps"
 
@@ -31,7 +32,7 @@ These are modules that I include as part of my special build of RattleSnakeOS. A
 - [x] Total Commander - file manager (WebDAV, Drive, TotalDrip)
 
 ## Free Commercial
-- [ ] App Locker - Application Locker (no ads)
+- [x] Norton App Lock - Application Locker (no ads)
 - [x] Chronous - Screen Wodget (ads)
 - [x] FolderSync - Copy files between cloud services (ads)
 - [x] iA Writer - Markdown editor (no ads)
