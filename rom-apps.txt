@@ -1,3 +1,13 @@
+These are modules that I include as part of my special build of RattleSnakeOS. Add the following lines to the end of the '.rattlesnakeos.toml'.
+
+    [[custom-prebuilts]]
+      modules = ["BeHeKeyboard","Chronus","DavX5","FolderSync","FreedomPop",
+             "GappsBrowser","GoogleVoice","KeePassDX","LibreOfficeViewer","Maps",
+             "MuPDFMini","PrivacyBrowser","SimpleCalendar","SimpleTask","SkyTube",
+             "Slide","SpaRSS","TCDrive","TCDropbox","TCWebDAV","TotalCommander","Wallabag","Yalp","iAWriter"]
+      repo = "https://github.com/simmule-turner/snake-apps"
+
+
 # Applications for ROM
 
 ## FDroid Open-source
