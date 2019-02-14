@@ -42,3 +42,13 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] GoogleVoice - Google Voice (no ads)
 - [x] iA Writer - Markdown editor (no ads)
 - [x] Messaging - FreedomPop application (ads)
+
+***
+## Configuration
+
+1. Configure microG (device registration, cloud messaging)
+1. Configure WiFi 
+1. Restart device
+1. Configure FreedomPop (Settings>Network & internet>Mobile network>Access Point Names>+), FreedomPop, fp.com.attz, Save
+1. Configure GoogleVoice
+1. Configure rest of the applications
