@@ -2,21 +2,23 @@ These are modules that I include as part of my special build of RattleSnakeOS.
 Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
-      modules = ["BeHeKeyboard","Chronus","DavX5","FolderSync","FreedomPop",
-             "GappsBrowser","GoogleVoice","KeePassDX","LibreOfficeViewer","Maps",
+      modules = [
+             "Chronus","CtrlKeyboard", "DavX5","FolderSync","FreedomPop","GappsBrowser",
+             "GoogleVoice","HackersKeyboard","KeePassDX","LibreOfficeViewer","Maps",
              "MuPDFMini","NortonAppLock","PrivacyBrowser","SimpleCalendar","SimpleTask","SkyTube",
-             "Slide","SpaRSS","TCDrive","TCDropbox","TCWebDAV","TotalCommander","Wallabag","Yalp","iAWriter"]
+             "Slide","SpaRSS","TCDrive","TCDropbox","TCWebDAV","TotalCommander","Wallabag","Yalp","iAWriter"
+      ]
       repo = "https://github.com/simmule-turner/snake-apps"
 
 
 # Applications for ROM
 
 ## FDroid Open-source
-- [x] BeHeKeyboard - Hacking & programming programming keyboard
+- [x] CtrlKeyboard - Keyboard for terminal/termux
 - [x] DavX5 - CalDAV/CardDAV synchronization
 - [x] GappsBrowser - Sandbox for google web apps
-- [x] KeePassDX - password manager 
-- [x] LibreOfficeViewer - Microsoft Office docoment viewer
+- [x] KeePassDX - password manager
+- [x] LibreOfficeViewer - Microsoft Office document viewer
 - [x] Maps - Offline OpenStreetMap navigation
 - [x] MuPDFMini - document viewer (PDF, CBZ)
 - [x] PrivacyBrowser - A privacy web browser
@@ -28,7 +30,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Yalp Store - Store to download from Google Play Store
 
 ## (non) FDroid Open-source
-- [x] Simpletask - task manager (no cloudsync) 
+- [x] Simpletask - task manager (no cloudsync)
 - [x] Total Commander - file manager (WebDAV, Drive, TotalDrip)
 
 ## Free Commercial
