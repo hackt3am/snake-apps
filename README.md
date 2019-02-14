@@ -37,8 +37,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Norton App Lock - Application Locker (no ads)
 - [x] Chronous - Screen Wodget (ads)
 - [x] FolderSync - Copy files between cloud services (ads)
+- [x] GoogleVoice - Google Voice (no ads)
 - [x] iA Writer - Markdown editor (no ads)
-- [x] Voice - Google Voice (no ads)
-
-## Paid Commercial
 - [x] Messaging - FreedomPop application (ads)
