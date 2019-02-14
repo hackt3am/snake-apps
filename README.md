@@ -3,9 +3,9 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
       modules = [
-             "Chronus","CtrlKeyboard", "DavX5","FolderSync","FreedomPop","GappsBrowser",
+             "Chronus","CtrlKeyboard", "DavX5","DejaVuNlp","FolderSync","FreedomPop","GappsBrowser",
              "GoogleVoice","HackersKeyboard","KeePassDX","LibreOfficeViewer","Maps",
-             "MuPDFMini","NortonAppLock","PrivacyBrowser","SimpleCalendar","SimpleTask","SkyTube",
+             "MuPDFMini","NominatimNlpBackend","NortonAppLock","PrivacyBrowser","SimpleCalendar","SimpleTask","SkyTube",
              "Slide","SpaRSS","TCDrive","TCDropbox","TCWebDAV","TotalCommander","Wallabag","Yalp","iAWriter"
       ]
       repo = "https://github.com/simmule-turner/snake-apps"
@@ -16,11 +16,13 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 ## FDroid Open-source
 - [x] CtrlKeyboard - Keyboard for terminal/termux
 - [x] DavX5 - CalDAV/CardDAV synchronization
+- [x] DejaVuNlp - Cell and Wi-Fi based network provider for UnifiedNlp
 - [x] GappsBrowser - Sandbox for google web apps
 - [x] KeePassDX - password manager
 - [x] LibreOfficeViewer - Microsoft Office document viewer
 - [x] Maps - Offline OpenStreetMap navigation
 - [x] MuPDFMini - document viewer (PDF, CBZ)
+- [x] NominatimNlpBackend - backend for MapQuest's geocoding
 - [x] PrivacyBrowser - A privacy web browser
 - [x] SimpleCalendar - Calendar application
 - [x] SkyTube - A YouTube player.
