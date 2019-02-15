@@ -5,7 +5,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
       modules = [
              "Chronus","CtrlKeyboard", "DavX5","DejaVuNlp","FolderSync","FreedomPop","GappsBrowser",
              "GoogleVoice","HackersKeyboard","KeePassDX","LibreOfficeViewer","Maps",
-             "MuPDFMini","NominatimNlpBackend","NortonAppLock","PrivacyBrowser","SimpleCalendar","SimpleTask","SkyTube",
+             "MuPDFMini","NominatimNlpBackend","PrivacyAppLock","PrivacyBrowser","SimpleCalendar","SimpleTask","SkyTube",
              "Slide","SpaRSS","TCDrive","TCDropbox","TCWebDAV","TotalCommander","Wallabag","Yalp","iAWriter"
       ]
       repo = "https://github.com/simmule-turner/snake-apps"
@@ -36,12 +36,12 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Total Commander - file manager (WebDAV, Drive, TotalDrip)
 
 ## Free Commercial
-- [x] Norton App Lock - Application Locker (no ads)
 - [x] Chronous - Screen Wodget (ads)
 - [x] FolderSync - Copy files between cloud services (ads)
 - [x] GoogleVoice - Google Voice (no ads)
 - [x] iA Writer - Markdown editor (no ads)
 - [x] Messaging - FreedomPop application (ads)
+- [x] Privacy AppLock - Application locker and photo
 
 ***
 ## Configuration
