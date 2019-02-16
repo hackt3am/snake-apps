@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := SimpleTask
-LOCAL_SRC_FILES :=  nl.mpcjanssen.simpletask_3056_apps.evozi.com.apk
+LOCAL_SRC_FILES :=  Simpletask_Cloudless_v10.2.9_apkpure.com.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := PRESIGNED
