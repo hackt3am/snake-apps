@@ -6,8 +6,8 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
              "Chronus","CtrlKeyboard","DavX5","DejaVuNlp","DynamicPinAppLock",
              "FolderSync","FreedomPop","GappsBrowser","GoogleVoice","HackersKeyboard",
              "iAWriter","KeepassAndroid","LibreOfficeViewer","Maps","MuPDFMini",
-             "NominatimNlpBackend","PrivacyBrowser","SimpleCalendar","SimpleTask","SkyTube",
-             "Slide","SpaRSS","TCDrive","TCDropbox","TCWebDAV",
+             "NominatimNlpBackend","SimpleCalendar","SimpleTask","SkyTube","Slide",
+             "SpaRSS","TCDrive","TCDropbox","TCWebDAV","TorBrowser",
              "TotalCommander","Wallabag","Yalp",
       ]
       repo = "https://github.com/simmule-turner/snake-apps"
