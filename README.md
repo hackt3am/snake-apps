@@ -24,7 +24,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Maps - Offline OpenStreetMap navigation
 - [x] MuPDFMini - document viewer (PDF, CBZ)
 - [x] NominatimNlpBackend - backend for MapQuest's geocoding
-- [x] PrivacyBrowser - A privacy web browser
 - [x] SimpleCalendar - Calendar application
 - [x] SkyTube - A YouTube player.
 - [x] Slide - Companion app for reddit
@@ -34,6 +33,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
 ## (non) FDroid Open-source
 - [x] Simpletask - task manager (no cloudsync)
+- [x] TorBrowser - A privacy web browser
 - [x] Total Commander - file manager (WebDAV, Drive, TotalDrip)
 
 ## Free Commercial
@@ -52,5 +52,10 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 1. Configure microG (device registration, cloud messaging, location providers)
 1. Configure FreedomPop (Settings>Network & internet>Mobile network>Access Point Names>+), FreedomPop, fp.com.attz, Save
 1. Configure GoogleVoice
+1. Configure Tor Browser
+     - add uBlock Origin
+     - add Privacy Badger
+     - add Decentraleyes
+     - make default browser (Settings>Make default browser)
 1. Restart device
 1. Configure rest of the applications
