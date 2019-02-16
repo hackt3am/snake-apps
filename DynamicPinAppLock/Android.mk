@@ -1,8 +1,8 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE := PrivacyAppLock
-LOCAL_SRC_FILES := com.enjoyvalley.applock.28.apk
+LOCAL_MODULE := DynamicPinAppLock
+LOCAL_SRC_FILES := Dynamic_pin_app_lock_v1.0_apkpure.com.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := PRESIGNED
