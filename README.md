@@ -50,7 +50,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
 1. Configure WiFi 
 1. Configure microG (device registration, cloud messaging, location providers)
-1. Configure FreedomPop (Settings>Network & internet>Mobile network>Access Point Names>+), FreedomPop, fp.com.attz, Save
+1. Configure FreedomPop (Settings>Network & internet>Mobile network>Advanced>Access Point Names>+), FreedomPop, fp.com.attz, Save
 1. Configure GoogleVoice
 1. Configure Tor Browser
      - add uBlock Origin
