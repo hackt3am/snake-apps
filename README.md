@@ -37,7 +37,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Total Commander - file manager (WebDAV, Drive, TotalDrip)
 
 ## Free Commercial
-- [x] Chronus - Screen Wodget (ads)
+- [x] Chronus - Screen Widget (ads)
 - [x] Dynamic Pin AppLock - Application locker
 - [x] FolderSync - Copy files between cloud services (ads)
 - [x] GoogleVoice - Google Voice (no ads)
