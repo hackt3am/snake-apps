@@ -38,11 +38,11 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
 ## Free Commercial
 - [x] Chronus - Screen Wodget (ads)
-- [x] Dynamic Pin AppLock - Application locker
+- [x] Dynamic Pin AppLock - Application locker (no ads)
 - [x] FolderSync - Copy files between cloud services (ads)
 - [x] GoogleVoice - Google Voice (no ads)
 - [x] iA Writer - Markdown editor (no ads)
-- [x] KeepassAndroid - password manager
+- [x] KeepassAndroid - password manager (no ads)
 - [x] Messaging - FreedomPop application (ads)
 
 ***
@@ -50,7 +50,10 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
 1. Configure WiFi 
 1. Configure microG (device registration, cloud messaging, location providers)
-1. Configure FreedomPop (Settings>Network & internet>Mobile network>Advanced>Access Point Names>+), FreedomPop, fp.com.attz, Save
+1. Configure FreedomPop
+     - goto Settings>Network & internet>Mobile network>Advanced>Access Point Names>+
+     - add an APN, FreedomPop, fp.com.attz
+     - save the entry
 1. Configure GoogleVoice
 1. Restart device
 1. Configure rest of the applications
