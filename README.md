@@ -3,12 +3,12 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
       modules = [
-             "Chronus","CtrlKeyboard","DavX5","DejaVuNlp","DynamicPinAppLock",
+             "Chronus","CtrlKeyboard","DavX5","DejaVuNlp","DynamicPinAppLock","FirefoxFocus",
              "FolderSync","FreedomPop","GappsBrowser","GoogleVoice","HackersKeyboard",
              "iAWriter","KeepassAndroid","LibreOfficeViewer","Maps","MuPDFMini",
              "NominatimNlpBackend","SimpleCalendar","SimpleTask","SkyTube","Slide",
-             "SpaRSS","TCDrive","TCDropbox","TCWebDAV","TorBrowser",
-             "TotalCommander","Wallabag","Yalp",
+             "SpaRSS","TCDrive","TCDropbox","TCWebDAV","TotalCommander",
+             "Wallabag","Yalp",
       ]
       repo = "https://github.com/simmule-turner/snake-apps"
 
@@ -32,8 +32,8 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Yalp Store - Store to download from Google Play Store
 
 ## (non) FDroid Open-source
+- [x] Firefox Focus - A privacy web browser
 - [x] Simpletask - task manager (no cloudsync)
-- [x] TorBrowser - A privacy web browser
 - [x] Total Commander - file manager (WebDAV, Drive, TotalDrip)
 
 ## Free Commercial
@@ -52,10 +52,5 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 1. Configure microG (device registration, cloud messaging, location providers)
 1. Configure FreedomPop (Settings>Network & internet>Mobile network>Advanced>Access Point Names>+), FreedomPop, fp.com.attz, Save
 1. Configure GoogleVoice
-1. Configure Tor Browser
-     - add uBlock Origin
-     - add Privacy Badger
-     - add Decentraleyes
-     - make default browser (Settings>Make default browser)
 1. Restart device
 1. Configure rest of the applications
