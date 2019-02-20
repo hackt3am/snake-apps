@@ -54,6 +54,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - save the entry
 1. Configure GoogleVoice
 1. Install "Keypass2Android Password Safe" from the Yalp Store
-1. Install "NetSpeed Indicator: Internet Speed Meter" from the Yalp Store
+1. Install "ProtonVPN" from the Yalp Store
+1. Install "NetSpeed Indicator" from the Yalp Store
 1. Restart device
 1. Configure rest of the applications
