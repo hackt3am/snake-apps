@@ -3,11 +3,12 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
       modules = [
-        "AnySoftKeyboard","AnySoftKeyboardSSH","Chronus","DavX5","DejaVuNlp","DynamicPinAppLock",
-        "FolderSync","FreedomPop","GappsBrowser","GoogleVoice","Joplin",
-        "LibreOfficeViewer","Maps","MuPDFMini","NominatimNlpBackend","NetSpeedIndicator","PrivacyBrowser","ProtonVPN",
-        "SimpleCalendar","SkyTube","Slide","SpaRSS","TCDrive",
-        "TCDropbox","TCWebDAV","Tasks","TotalCommander","Wallabag","Yalp",
+        "AnySoftKeyboard","AnySoftKeyboardSSH","Chronus","DavX5","DejaVuNlp",
+        "DynamicPinAppLock","FolderSync","FreedomPop","GappsBrowser","GoogleVoice",
+        "Joplin","LibreOfficeViewer","Maps","MuPDFMini","NetSpeedIndicator",
+        "NominatimNlpBackend","PrivacyBrowser","ProtonVPN","SimpleCalendar","SkyTube",
+        "Slide","SpaRSS","TCDrive","TCDropbox","TCWebDAV",
+        "Tasks","TotalCommander","Wallabag","Yalp",
       ]
       repo = "https://github.com/simmule-turner/snake-apps"
 
