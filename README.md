@@ -3,9 +3,9 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
       modules = [
-        "Chronus","CtrlKeyboard","DavX5","DejaVuNlp","DynamicPinAppLock",
-        "FolderSync","FreedomPop","GappsBrowser","GoogleVoice","Joplin","KeepassAndroid",
-        "LibreOfficeViewer","Maps","MuPDFMini","NominatimNlpBackend","PrivacyBrowser",
+        "AnySoftKeyboard","AnySoftKeyboardSSH","Chronus","DavX5","DejaVuNlp","DynamicPinAppLock",
+        "FolderSync","FreedomPop","GappsBrowser","GoogleVoice","Joplin",
+        "LibreOfficeViewer","Maps","MuPDFMini","NominatimNlpBackend","NetSpeedIndicator","PrivacyBrowser","ProtonVPN",
         "SimpleCalendar","SkyTube","Slide","SpaRSS","TCDrive",
         "TCDropbox","TCWebDAV","Tasks","TotalCommander","Wallabag","Yalp",
       ]
@@ -15,7 +15,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 # Applications for ROM
 
 ## FDroid Open-source
-- [x] CtrlKeyboard - Keyboard for terminal/termux
+- [x] AnySoftkeyboard - Keyboard for terminal/termux
 - [x] DavX5 - CalDAV/CardDAV synchronization
 - [x] DejaVuNlp - Cell and Wi-Fi based network provider for UnifiedNlp
 - [x] GappsBrowser - Sandbox for google web apps
@@ -42,6 +42,9 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] FolderSync - Copy files between cloud services (ads)
 - [x] GoogleVoice - Google Voice (no ads)
 - [x] Messaging - FreedomPop application (ads)
+- [x] NetSpeedIndicator - Measure traffic speed (no adds)
+- [x] ProtonVPN - VPN software (no ads)
+
 
 ***
 ## Configuration
@@ -54,7 +57,5 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - save the entry
 1. Configure GoogleVoice
 1. Install "Keypass2Android Password Safe" from the Yalp Store
-1. Install "ProtonVPN" from the Yalp Store
-1. Install "NetSpeed Indicator" from the Yalp Store
 1. Restart device
 1. Configure rest of the applications
