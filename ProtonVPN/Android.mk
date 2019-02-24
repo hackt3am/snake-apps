@@ -1,9 +1,0 @@
-LOCAL_PATH := $(call my-dir)
-include $(CLEAR_VARS)
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE := ProtonVPN
-LOCAL_SRC_FILES := ProtonVPN_advanced_online_security_for_everyone_v1.3.5_apkpure.com.apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := PRESIGNED
-include $(BUILD_PREBUILT)

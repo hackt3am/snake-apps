@@ -6,7 +6,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
         "AnySoftKeyboard","AnySoftKeyboardSSH","Chronus","DavX5","DejaVuNlp",
         "DynamicPinAppLock","Firefox","FolderSync","FreedomPop","GappsBrowser","GoogleVoice",
         "Joplin","LibreOfficeViewer","Maps","MuPDFMini","NetSpeedIndicator",
-        "NominatimNlpBackend","ProtonVPN","SimpleCalendar","SkyTube",
+        "NominatimNlpBackend","OpenVPN","WiFiPrivacyPolice","SimpleCalendar","SkyTube",
         "Slide","SpaRSS","TCDrive","TCDropbox","TCWebDAV",
         "Tasks","TotalCommander","Wallabag","Yalp",
       ]
@@ -24,12 +24,14 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Maps - Offline OpenStreetMap navigation ()
 - [x] MuPDFMini - document viewer (PDF, CBZ) (no GSF)
 - [x] NominatimNlpBackend - backend for MapQuest's geocoding ()
+- [x] OpenVPN - VPN Software (no GSF)
 - [x] SimpleCalendar - Calendar application (no GSF)
 - [x] SkyTube - A YouTube player ().
 - [x] Slide - Companion app for reddit (no GSF)
 - [x] SpaRSS - RSS reader ()
 - [x] Tasks - (OpenTasks) Task manager that syncs with DavX5 (no GSF)
 - [x] Wallabag - Read it later app (no GSF)
+- [x] WiFiPrivacyPolice - prevents leaking privacy sensitive information via Wi-Fi networks.
 - [x] Yalp Store - Store to download from Google Play Store (no GSF)
 
 ## (non) FDroid Open-source
@@ -44,7 +46,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] GoogleVoice - Google Voice (no ads) (uses GSF)
 - [x] Messaging - FreedomPop application (ads) (uses GSF)
 - [x] NetSpeedIndicator - Measure traffic speed (no adds) (no GSF)
-- [x] ProtonVPN - VPN software (no ads) (no GSF)
 
 
 ***
@@ -57,15 +58,17 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - add an APN, FreedomPop, fp.com.attz
      - save the entry
 1. Configure GoogleVoice
-1. Install "Keypass2Android Password Safe" from the Yalp Store
 1. Configure "Firefox" 
-     - add user.js (local) or [user.js](https://github.com/pyllyukko/user.js/blob/master/user.js) (privacy tweaks) to /data/data/org.mozilla.firefox/files/mozilla/XXXXXXXX.your_profile_name
      - add Privacy Badger add-on
      - add uBlock Origin add-on
      - add Cookie AutoDelete add-on
      - add HTTPS Everywhere add-on
      - add Decentraleyes add-on
      - add NoScript Security Suite add-on
+     - add CanvasBlocker add-on
      - add searx.me add-on
      - configure searx settings>Search>searx.me as the default
+     - configure Firefox:privacy "about:config" tweaks using guide at [privacytools.io](https://www.privacytools.io/)
+1. Install & Configure "Keypass2Android Password Safe" from the Yalp Store
+1. Configure OpenVPN
 1. Configure rest of the applications
