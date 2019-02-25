@@ -3,12 +3,11 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
       modules = [
-        "AnySoftKeyboard","AnySoftKeyboardSSH","Chronus","DavX5","DejaVuNlp",
-        "DynamicPinAppLock","Firefox","FolderSync","FreedomPop","GappsBrowser","GoogleVoice",
-        "Joplin","LibreOfficeViewer","Maps","MuPDFMini","NetSpeedIndicator",
-        "NominatimNlpBackend","OpenVPN","WiFiPrivacyPolice","SimpleCalendar","SkyTube",
-        "Slide","SpaRSS","TCDrive","TCDropbox","TCWebDAV",
-        "Tasks","TotalCommander","Wallabag","Yalp",
+        "Chronus","DavX5","DejaVuNlp","DynamicPinAppLock","Firefox",
+        "FreedomPop","GappsBrowser","GoogleVoice","LibreOfficeViewer",
+        "Maps","MuPDFMini","NetSpeedIndicator","NeutriNote","NominatimNlpBackend",
+        "OpenVPN","SimpleCalendar","SkyTube","Slide","SpaRSS","Syncthing",
+        "Tasks","Termux","TotalCommander","Wallabag","WiFiPrivacyPolice","YalpStore",
       ]
       repo = "https://github.com/simmule-turner/snake-apps"
 
@@ -16,33 +15,33 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 # Applications for ROM
 
 ## FDroid Open-source
-- [x] AnySoftkeyboard - Keyboard for terminal/termux (no GSF))
 - [x] DavX5 - CalDAV/CardDAV synchronization (no GSF)
 - [x] DejaVuNlp - Cell and Wi-Fi based network provider for UnifiedNlp ()
 - [x] GappsBrowser - Sandbox for google web apps (no GSF)
 - [x] LibreOfficeViewer - Microsoft Office document viewer (no GSF)
 - [x] Maps - Offline OpenStreetMap navigation ()
 - [x] MuPDFMini - document viewer (PDF, CBZ) (no GSF)
+- [x] NeutriNote - Note writing application (uses GSF)
 - [x] NominatimNlpBackend - backend for MapQuest's geocoding ()
 - [x] OpenVPN - VPN Software (no GSF)
 - [x] SimpleCalendar - Calendar application (no GSF)
 - [x] SkyTube - A YouTube player ().
 - [x] Slide - Companion app for reddit (no GSF)
 - [x] SpaRSS - RSS reader ()
+- [x] Syncthing - file synchronization
 - [x] Tasks - (OpenTasks) Task manager that syncs with DavX5 (no GSF)
+- [x] Termux - Terminal Emulator
 - [x] Wallabag - Read it later app (no GSF)
 - [x] WiFiPrivacyPolice - prevents leaking privacy sensitive information via Wi-Fi networks.
-- [x] Yalp Store - Store to download from Google Play Store (no GSF)
+- [x] YalpStore - Store to download from Google Play Store (no GSF)
 
 ## (non) FDroid Open-source
-- [x] Joplin - Note taking application (uses GSF)
 - [x] Firefox - Web browser (uses GSF)
 - [x] Total Commander - file manager (WebDAV, Drive, TotalDrip) (no GSF)
 
 ## Free Commercial
 - [x] Chronus - Screen widgets (ads) (uses GSF)
 - [x] Dynamic Pin AppLock - Application locker (no ads) (uses GSF)
-- [x] FolderSync - Copy files between cloud services (ads) (uses GSF)
 - [x] GoogleVoice - Google Voice (no ads) (uses GSF)
 - [x] Messaging - FreedomPop application (ads) (uses GSF)
 - [x] NetSpeedIndicator - Measure traffic speed (no adds) (no GSF)
@@ -72,3 +71,8 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 1. Install & Configure "Keypass2Android Password Safe" from the Yalp Store
 1. Configure OpenVPN
 1. Configure rest of the applications
+
+### Optional
+1. Install "Shelter" from F-Droid Store
+     - Clone "Chromium" to Work Profile
+     - Install & Configure other "restricted" applications
