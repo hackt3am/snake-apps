@@ -57,9 +57,9 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - add an APN, FreedomPop, fp.com.attz
      - save the entry
 1. Configure GoogleVoice
-1. Install & Configure "Keypass2Android Password Safe" from the Yalp Store
+1. Install & configure "Keypass2Android Password Safe" from the Yalp Store
 1. Configure OpenVPN
-1. Install "Firefox"  from the Yalp Store
+1. Install & configure "Firefox" from the Yalp Store
      - add Privacy Badger add-on
      - add uBlock Origin add-on
      - add Cookie AutoDelete add-on
