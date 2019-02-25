@@ -5,7 +5,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
       modules = [
         "Chronus","DavX5","DynamicPinAppLock","Firefox","FreedomPop",
         "GappsBrowser","GoogleVoice","LibreOfficeViewer","Maps","MuPDFMini",
-        "NetSpeedIndicator","NeutriNote","Nlp","OpenVPN","SimpleCalendar",
+        "NetSpeedIndicator","NetGuard","NeutriNote","Nlp","OpenVPN","SimpleCalendar",
         "SkyTube","Slide","SpaRSS","Syncthing","Tasks",
         "Termux","TotalCommander","Wallabag","WiFiPrivacyPolice","YalpStore",
       ]
@@ -20,6 +20,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] LibreOfficeViewer - Microsoft Office document viewer (no GSF)
 - [x] Maps - Offline OpenStreetMap navigation ()
 - [x] MuPDFMini - document viewer (PDF, CBZ) (no GSF)
+- [x] NetGuard - manage network access (no GSF)
 - [x] NeutriNote - Note writing application (uses GSF)
 - [x] Nlp - network location provider ()
 - [x] OpenVPN - VPN Software (no GSF)
@@ -29,7 +30,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] SpaRSS - RSS reader ()
 - [x] Syncthing - file synchronization
 - [x] Tasks - (OpenTasks) Task manager that syncs with DavX5 (no GSF)
-- [x] Termux - Terminal Emulator
+- [x] Termux - Terminal Emulator (no GSF)
 - [x] Wallabag - Read it later app (no GSF)
 - [x] WiFiPrivacyPolice - prevents leaking privacy sensitive information via Wi-Fi networks.
 - [x] YalpStore - Store to download from Google Play Store (no GSF)
