@@ -3,10 +3,11 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
       modules = [
-        "Chronus","DavX5","DynamicPinAppLock","Firefox","FreedomPop",
-        "GappsBrowser","GoogleVoice","LibreOfficeViewer","Maps","MuPDFMini",
-        "NetSpeedIndicator","NetGuard","NeutriNote","Nlp","OpenVPN","SimpleCalendar",
-        "SkyTube","Slide","SpaRSS","Syncthing","Tasks",
+        "Chronus","DavX5","DejaVuNlp","DynamicPinAppLock","FreedomPop",
+        "GappsBrowser","GoogleVoice","LibreOfficeViewer","Maps","MozillaNlpBackend",
+        "MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote","NominatimNlpBackend",
+        "OpenVPN","SimpleCalendar","SkyTube","Slide","SpaRSS",
+        "Syncthing","TCDrive","TCDropbox","TCWebDAV","Tasks",
         "Termux","TotalCommander","Wallabag","WiFiPrivacyPolice","YalpStore",
       ]
       repo = "https://github.com/simmule-turner/snake-apps"
@@ -36,7 +37,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] YalpStore - Store to download from Google Play Store (no GSF)
 
 ## (non) FDroid Open-source
-- [x] Firefox - Web browser (uses GSF)
 - [x] Total Commander - file manager (WebDAV, Drive, TotalDrip) (no GSF)
 
 ## Free Commercial
@@ -57,7 +57,9 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - add an APN, FreedomPop, fp.com.attz
      - save the entry
 1. Configure GoogleVoice
-1. Configure "Firefox" 
+1. Install & Configure "Keypass2Android Password Safe" from the Yalp Store
+1. Configure OpenVPN
+1. Install "Firefox"  from the Yalp Store
      - add Privacy Badger add-on
      - add uBlock Origin add-on
      - add Cookie AutoDelete add-on
@@ -68,8 +70,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - add searx.me add-on
      - configure searx settings>Search>searx.me as the default
      - configure Firefox:privacy "about:config" tweaks using guide at [privacytools.io](https://www.privacytools.io/)
-1. Install & Configure "Keypass2Android Password Safe" from the Yalp Store
-1. Configure OpenVPN
 1. Configure rest of the applications
 
 ### Optional
