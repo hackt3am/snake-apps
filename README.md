@@ -3,11 +3,11 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
       modules = [
-        "Chronus","DavX5","DejaVuNlp","DynamicPinAppLock","Firefox",
-        "FreedomPop","GappsBrowser","GoogleVoice","LibreOfficeViewer",
-        "Maps","MuPDFMini","NetSpeedIndicator","NeutriNote","NominatimNlpBackend",
-        "OpenVPN","SimpleCalendar","SkyTube","Slide","SpaRSS","Syncthing",
-        "Tasks","Termux","TotalCommander","Wallabag","WiFiPrivacyPolice","YalpStore",
+        "Chronus","DavX5","DynamicPinAppLock","Firefox","FreedomPop",
+        "GappsBrowser","GoogleVoice","LibreOfficeViewer","Maps","MuPDFMini",
+        "NetSpeedIndicator","NeutriNote","Nlp","OpenVPN","SimpleCalendar",
+        "SkyTube","Slide","SpaRSS","Syncthing","Tasks",
+        "Termux","TotalCommander","Wallabag","WiFiPrivacyPolice","YalpStore",
       ]
       repo = "https://github.com/simmule-turner/snake-apps"
 
@@ -16,13 +16,12 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
 ## FDroid Open-source
 - [x] DavX5 - CalDAV/CardDAV synchronization (no GSF)
-- [x] DejaVuNlp - Cell and Wi-Fi based network provider for UnifiedNlp ()
 - [x] GappsBrowser - Sandbox for google web apps (no GSF)
 - [x] LibreOfficeViewer - Microsoft Office document viewer (no GSF)
 - [x] Maps - Offline OpenStreetMap navigation ()
 - [x] MuPDFMini - document viewer (PDF, CBZ) (no GSF)
 - [x] NeutriNote - Note writing application (uses GSF)
-- [x] NominatimNlpBackend - backend for MapQuest's geocoding ()
+- [x] Nlp - network location provider ()
 - [x] OpenVPN - VPN Software (no GSF)
 - [x] SimpleCalendar - Calendar application (no GSF)
 - [x] SkyTube - A YouTube player ().
