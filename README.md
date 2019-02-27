@@ -4,12 +4,12 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
     [[custom-prebuilts]]
       modules = [
            "Chronus","DavX5","DejaVuNlp","DynamicPinAppLock","FreedomPop",
-           "GappsBrowser","GoogleVoice","LibreOfficeViewer","Maps","MozillaNlpBackend",
-           "MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote","NominatimNlpBackend",
-           "OpenVPN","SimpleCalendar","SkyTube","Slide","SpaRSS",
-           "Syncthing","TCDrive","TCDropbox","TCWebDAV","Tasks",
-           "Termux","TermuxBoot","TermuxWidget","TotalCommander","Wallabag",
-           "WiFiPrivacyPolice","YalpStore",
+           "GappsBrowser","GoogleVoice","K9Mail","LibreOfficeViewer","Maps",
+           "MozillaNlpBackend","MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote",
+           "NominatimNlpBackend","OpenKeychain","OpenVPN","SimpleCalendar","SkyTube",
+           "Slide","SpaRSS","Syncthing","TCDrive","TCDropbox",
+           "TCWebDAV","Tasks","Termux","TermuxBoot","TermuxWidget",
+           "TotalCommander","Wallabag","WiFiPrivacyPolice","YalpStore",
       ]
       repo = "https://github.com/simmule-turner/snake-apps"
 
@@ -19,12 +19,14 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 ## FDroid Open-source
 - [x] DavX5 - CalDAV/CardDAV synchronization (no GSF)
 - [x] GappsBrowser - Sandbox for google web apps (no GSF)
+- [x] K-9 Mail - email application
 - [x] LibreOfficeViewer - Microsoft Office document viewer (no GSF)
 - [x] Maps - Offline OpenStreetMap navigation ()
 - [x] MuPDFMini - document viewer (PDF, CBZ) (no GSF)
 - [x] NetGuard - manage network access (no GSF)
 - [x] NeutriNote - Note writing application (uses GSF)
 - [x] Nlp - network location provider ()
+- [x] OpenKeychain - Easy PGP
 - [x] OpenVPN - VPN Software (no GSF)
 - [x] SimpleCalendar - Calendar application (no GSF)
 - [x] SkyTube - A YouTube player ().
