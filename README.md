@@ -4,7 +4,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
     [[custom-prebuilts]]
       modules = [
            "Chronus","DavX5","DejaVuNlp","DynamicPinAppLock","FreedomPop",
-           "GoogleVoice","K9Mail","LibreOfficeViewer","Maps",
+           "GoogleVoice","K9Mail","LibreOfficeViewer",
            "MozillaNlpBackend","MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote",
            "NominatimNlpBackend","OpenKeychain","OpenVPN","SimpleCalendar","SkyTube",
            "Slide","SpaRSS","Syncthing","TCDrive","TCDropbox",
@@ -20,7 +20,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] DavX5 - CalDAV/CardDAV synchronization (no GSF)
 - [x] K-9 Mail - email application
 - [x] LibreOfficeViewer - Microsoft Office document viewer (no GSF)
-- [x] Maps - Offline OpenStreetMap navigation ()
 - [x] MuPDFMini - document viewer (PDF, CBZ) (no GSF)
 - [x] NetGuard - manage network access (no GSF)
 - [x] NeutriNote - Note writing application (uses GSF)
