@@ -77,3 +77,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 1. Install "Shelter" from F-Droid Store
      - Clone "Chromium" to Work Profile
      - Install & Configure other "restricted" applications
+1. Install & Configure "Magic Earth" from Yalp Store
+
+
