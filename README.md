@@ -1,8 +1,24 @@
 These are modules that I include as part of my special build of RattleSnakeOS.
 Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
+    [[custom-patches]]
+    patches = ["00002-microg-sigspoof.patch"]
+    repo = "https://github.com/RattlesnakeOS/microg"
+
     [[custom-prebuilts]]
-      modules = [
+    modules = ["GmsCore","GsfProxy","FakeStore","com.google.android.maps.jar"]
+    repo = "https://github.com/RattlesnakeOS/microg"
+
+    [[custom-patches]]
+    patches = [
+        "00001-global-internet-permission-toggle.patch",
+        "00002-global-sensors-permission-toggle.patch",
+        "00003-disable-menu-entries-in-recovery.patch",
+    ]
+    repo = "https://github.com/RattlesnakeOS/community_patches"
+
+    [[custom-prebuilts]]
+    modules = [
            "Chronus","DavX5","DejaVuNlp","DynamicPinAppLock","FairEmail","FreedomPop",
            "GoogleVoice","LibreOfficeViewer",
            "MozillaNlpBackend","MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote",
@@ -10,8 +26,8 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
            "Slide","SpaRSS","Syncthing","TCDrive","TCDropbox",
            "TCWebDAV","Tasks","Termux","TermuxBoot","TermuxWidget",
            "TotalCommander","Wallabag","WiFiPrivacyPolice","YalpStore",
-      ]
-      repo = "https://github.com/simmule-turner/snake-apps"
+    ]
+    repo = "https://github.com/simmule-turner/snake-apps"
 
 
 # Applications for ROM
