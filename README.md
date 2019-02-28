@@ -3,10 +3,10 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
       modules = [
-           "Chronus","DavX5","DejaVuNlp","DynamicPinAppLock","FreedomPop",
-           "GoogleVoice","K9Mail","LibreOfficeViewer",
+           "Chronus","DavX5","DejaVuNlp","DynamicPinAppLock","FairEmail","FreedomPop",
+           "GoogleVoice","LibreOfficeViewer",
            "MozillaNlpBackend","MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote",
-           "NominatimNlpBackend","OpenKeychain","OpenVPN","SimpleCalendar","SkyTube",
+           "NominatimNlpBackend","OpenVPN","SimpleCalendar","SkyTube",
            "Slide","SpaRSS","Syncthing","TCDrive","TCDropbox",
            "TCWebDAV","Tasks","Termux","TermuxBoot","TermuxWidget",
            "TotalCommander","Wallabag","WiFiPrivacyPolice","YalpStore",
@@ -18,13 +18,12 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
 ## FDroid Open-source
 - [x] DavX5 - CalDAV/CardDAV synchronization (no GSF)
-- [x] K-9 Mail - email application
+- [x] FairEmail - Email application
 - [x] LibreOfficeViewer - Microsoft Office document viewer (no GSF)
 - [x] MuPDFMini - document viewer (PDF, CBZ) (no GSF)
 - [x] NetGuard - manage network access (no GSF)
 - [x] NeutriNote - Note writing application (uses GSF)
 - [x] Nlp - network location provider ()
-- [x] OpenKeychain - Easy PGP
 - [x] OpenVPN - VPN Software (no GSF)
 - [x] SimpleCalendar - Calendar application (no GSF)
 - [x] SkyTube - A YouTube player ().
@@ -77,6 +76,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 1. Install "Shelter" from F-Droid Store
      - Clone "Chromium" to Work Profile
      - Install & Configure other "restricted" applications
-1. Install & Configure "Magic Earth" from Yalp Store
+1. Install & Configure "Magic Earth" from the Yalp Store
 
 
