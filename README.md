@@ -88,9 +88,9 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 1. Install & Configure "Magic Earth" from the Yalp Store
 1. Configure "NetGuard"
      - configure ad blocking
-          - Enable the setting 'Filter traffic' in the Advanced options (three dot menu > Settings > Advanced options > Filter traffic; default is disabled except always enabled in Android 5.0 and earlier)
-          - Enable the setting 'Block domain names' in the Advanced options (three dot menu > Settings > Advanced options > Block domain names; default is enabled)
-          - Import or download a hosts file using the NetGuard backup settings (three dot menu > Settings > Backup > Download hosts file)
+          - Enable the setting 'Filter traffic' in advanced options.
+          - Enable the setting 'Block domain names' in advanced options.
+          - Import or download a hosts file using the NetGuard backup settings.
      - configure SOCKS5 vpn
           - Server name: 109.201.154.251 or 46.166.190.172 or nslookup proxy-nl.privateinternetaccess.com
           - Port number: 1080
