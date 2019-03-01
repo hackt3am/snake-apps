@@ -60,7 +60,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Dynamic Pin AppLock - Application locker (no ads) (uses GSF)
 - [x] GoogleVoice - Google Voice (no ads) (uses GSF)
 - [x] Messaging - FreedomPop application (ads) (uses GSF)
-- [x] NetSpeedIndicator - Measure traffic speed (no adds) (no GSF)
+- [x] NetSpeedIndicator - Measure traffic speed (no ads) (no GSF)
 
 
 ***
@@ -74,7 +74,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - save the entry
 1. Configure GoogleVoice
 1. Install & configure "Keypass2Android Password Safe" from the Yalp Store
-1. Configure OpenVPN
 1. Install & configure "Firefox" from the Yalp Store
      - add Privacy Badger add-on
      - add uBlock Origin add-on
@@ -86,12 +85,20 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - add searx.me add-on
      - configure searx settings>Search>searx.me as the default
      - configure Firefox:privacy "about:config" tweaks using guide at [privacytools.io](https://www.privacytools.io/)
+1. Install & Configure "Magic Earth" from the Yalp Store
+1. Configure "NetGuard"
+     - configure ad blocking
+          - Enable the setting 'Filter traffic' in the Advanced options (three dot menu > Settings > Advanced options > Filter traffic; default is disabled except always enabled in Android 5.0 and earlier)
+          - Enable the setting 'Block domain names' in the Advanced options (three dot menu > Settings > Advanced options > Block domain names; default is enabled)
+          - Import or download a hosts file using the NetGuard backup settings (three dot menu > Settings > Backup > Download hosts file)
+     - configure SOCKS5 vpn
+          - Server name: 109.201.154.251 or 46.166.190.172 or nslookup proxy-nl.privateinternetaccess.com
+          - Port number: 1080
+          - User name: <not pialogin>
+          - Password: <not piapassword>
 1. Configure rest of the applications
 
 ### Optional
 1. Install "Shelter" from F-Droid Store
      - Clone "Chromium" to Work Profile
      - Install & Configure other "restricted" applications
-1. Install & Configure "Magic Earth" from the Yalp Store
-
-
