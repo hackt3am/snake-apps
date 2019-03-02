@@ -88,14 +88,21 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 1. Install & Configure "Magic Earth" from the Yalp Store
 1. Configure "NetGuard"
      - configure ad blocking
-          - Enable the setting 'Filter traffic' in advanced options.
-          - Enable the setting 'Block domain names' in advanced options.
-          - Import or download a hosts file using the NetGuard backup settings.
-     - configure SOCKS5 vpn
+          - Enable Settings>Advanced options>Filter traffic.
+          - Enable Settings>Advanced options>Block domain names.
+          - Settings>Backup>Download hosts file.
+          - Settings>Backup>Import hosts file (append).
+               - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+     - configure SOCKS5 vpn (Settings>Advanced options>SOCKS5)
           - Server name: 109.201.154.251 or 46.166.190.172 or nslookup proxy-nl.privateinternetaccess.com
           - Port number: 1080
-          - User name: <not pialogin>
-          - Password: <not piapassword>
+          - User name: not_pialogin
+          - Password: not_piapassword
+      - configure DNS (Settings>Advanced options>VPN DNS)
+           - 9.9.9.9
+           - 149.112.112.112
+1. Configure DNS (no logging) Setting>Network & internet>Advanced>Private DNS>Private DNS provider hostname
+     - add "dns9.quad9.net" and press save
 1. Configure rest of the applications
 
 ### Optional
