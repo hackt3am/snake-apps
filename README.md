@@ -95,8 +95,8 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - configure SOCKS5 vpn (Settings>Advanced options>SOCKS5)
           - Server name: 109.201.154.251 or 46.166.190.172 or nslookup proxy-nl.privateinternetaccess.com
           - Port number: 1080
-          - User name: not_pialogin
-          - Password: not_piapassword
+          - User name: socks-user
+          - Password: socks-password
       - configure DNS (Settings>Advanced options>VPN DNS)
            - 9.9.9.9
            - 149.112.112.112
