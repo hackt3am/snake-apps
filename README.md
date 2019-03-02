@@ -85,7 +85,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - add searx.me add-on
      - configure searx settings>Search>searx.me as the default
      - configure Firefox:privacy "about:config" tweaks using guide at [privacytools.io](https://www.privacytools.io/)
-1. Install & Configure "Magic Earth" from the Yalp Store
 1. Configure "NetGuard"
      - configure ad blocking
           - Enable Settings>Advanced options>Filter traffic.
@@ -103,6 +102,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
            - 149.112.112.112
 1. Configure DNS (no logging) Setting>Network & internet>Advanced>Private DNS>Private DNS provider hostname
      - add "dns9.quad9.net" and press save
+1. Install & Configure "Magic Earth" from the Yalp Store
 1. Configure rest of the applications
 
 ### Optional
