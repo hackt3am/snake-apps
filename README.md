@@ -19,8 +19,8 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
     modules = [
-           "Chronus","DavX5","DejaVuNlp","DynamicPinAppLock","FairEmail","FreedomPop",
-           "GoogleVoice","LibreOfficeViewer",
+           "Conversations","Chronus","DavX5","DejaVuNlp","DynamicPinAppLock",
+           "FairEmail","FreedomPop","GoogleVoice","LibreOfficeViewer",
            "MozillaNlpBackend","MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote",
            "NominatimNlpBackend","OpenVPN","SimpleCalendar","SkyTube",
            "Slide","SpaRSS","Syncthing","TCDrive","TCDropbox",
@@ -33,6 +33,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 # Applications for ROM
 
 ## FDroid Open-source
+- [x] Conversations - A Jabber/XMPP chat client
 - [x] DavX5 - CalDAV/CardDAV synchronization (no GSF)
 - [x] FairEmail - Email application
 - [x] LibreOfficeViewer - Microsoft Office document viewer (no GSF)
