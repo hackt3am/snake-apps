@@ -102,10 +102,10 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
            - 149.112.112.112
 1. Configure DNS (no logging) Setting>Network & internet>Advanced>Private DNS>Private DNS provider hostname
      - add "dns9.quad9.net" and press save
-1. Install & Configure "Magic Earth" from the Yalp Store
+1. Install & configure "Magic Earth" from the Yalp Store
 1. Configure rest of the applications
 
 ### Optional
 1. Install "Shelter" from F-Droid Store
      - Clone "Chromium" to Work Profile
-     - Install & Configure other "restricted" applications
+     - Install & configure other "restricted" applications
