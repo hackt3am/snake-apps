@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := FreedomPop
-LOCAL_SRC_FILES := com.freedompop.phone_24.00.1388.0302-240001388_minAPI18(armeabi,armeabi-v7a,x86)(nodpi)_apkmirror.com.apk
+LOCAL_SRC_FILES := com.freedompop.phone_24.00.1317.0928-240001317_minAPI16(armeabi,armeabi-v7a,x86)(nodpi)_apkmirror.com.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := PRESIGNED
