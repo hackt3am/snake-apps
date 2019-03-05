@@ -1,0 +1,9 @@
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE := Riot.im
+LOCAL_SRC_FILES := im.vector.alpha_0.8.23-82300_minAPI16(armeabi-v7a,x86)(nodpi)_apkmirror.com.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)

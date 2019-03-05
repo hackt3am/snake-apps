@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := NeutriNote
-LOCAL_SRC_FILES := neutriNote_Write_Markdown_Math_Notes_v2.9.5_apkpure.com.apk
+LOCAL_SRC_FILES := com.appmindlab.nano.1012.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := PRESIGNED

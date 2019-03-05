@@ -19,13 +19,13 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
     modules = [
-           "Conversations","Chronus","DavX5","DejaVuNlp","DynamicPinAppLock",
-           "FairEmail","FreedomPop","GoogleVoice","LibreOfficeViewer",
-           "MozillaNlpBackend","MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote",
-           "NominatimNlpBackend","OpenVPN","SimpleCalendar","SkyTube",
-           "Slide","SpaRSS","Syncthing","TCDrive","TCDropbox",
-           "TCWebDAV","Tasks","Termux","TermuxBoot","TermuxWidget",
-           "TotalCommander","Wallabag","WiFiPrivacyPolice","YalpStore",
+           "Chronus","DavX5","DejaVuNlp","DynamicPinAppLock","FairEmail",
+           "FreedomPop","Goodtime","GoogleVoice","LibreOfficeViewer","MozillaNlpBackend",
+           "MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote","NominatimNlpBackend",
+           "OpenVPN","Riot.im","SimpleCalendar","SkyTube","Slide",
+           "SpaRSS","Syncthing","TCDrive","TCDropbox","TCWebDAV",
+           "Tasks","Termux","TermuxBoot","TermuxWidget","TotalCommander",
+           "Wallabag","WiFiPrivacyPolice","YalpStore",
     ]
     repo = "https://github.com/simmule-turner/snake-apps"
 
@@ -33,7 +33,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 # Applications for ROM
 
 ## FDroid Open-source
-- [x] Conversations - A Jabber/XMPP chat client
 - [x] DavX5 - CalDAV/CardDAV synchronization (no GSF)
 - [x] FairEmail - Email application
 - [x] LibreOfficeViewer - Microsoft Office document viewer (no GSF)
@@ -42,6 +41,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] NeutriNote - Note writing application (uses GSF)
 - [x] Nlp - network location provider ()
 - [x] OpenVPN - VPN Software (no GSF)
+- [x] Riot.im - Universal secure chat application
 - [x] SimpleCalendar - Calendar application (no GSF)
 - [x] SkyTube - A YouTube player ().
 - [x] Slide - Companion app for reddit (no GSF)
@@ -59,6 +59,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 ## Free Commercial
 - [x] Chronus - Screen widgets (ads) (uses GSF)
 - [x] Dynamic Pin AppLock - Application locker (no ads) (uses GSF)
+- [x] Goodtime - A productivity timer
 - [x] GoogleVoice - Google Voice (no ads) (uses GSF)
 - [x] Messaging - FreedomPop application (ads) (uses GSF)
 - [x] NetSpeedIndicator - Measure traffic speed (no ads) (no GSF)
