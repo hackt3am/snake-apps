@@ -22,7 +22,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
            "Chronus","DavX5","DejaVuNlp","DynamicPinAppLock","FairEmail",
            "FreedomPop","Goodtime","GoogleVoice","LibreOfficeViewer","MozillaNlpBackend",
            "MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote","NominatimNlpBackend",
-           "OpenVPN","Riot.im","SimpleCalendar","SkyTube","Slide",
+           "OpenVPN","RiotIm","SimpleCalendar","SkyTube","Slide",
            "SpaRSS","Syncthing","TCDrive","TCDropbox","TCWebDAV",
            "Tasks","Termux","TermuxBoot","TermuxWidget","TotalCommander",
            "Wallabag","WiFiPrivacyPolice","YalpStore",
@@ -41,7 +41,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] NeutriNote - Note writing application (uses GSF)
 - [x] Nlp - network location provider ()
 - [x] OpenVPN - VPN Software (no GSF)
-- [x] Riot.im - Universal secure chat application
+- [x] RiotIm - Universal secure chat application
 - [x] SimpleCalendar - Calendar application (no GSF)
 - [x] SkyTube - A YouTube player ().
 - [x] Slide - Companion app for reddit (no GSF)
