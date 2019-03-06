@@ -1,0 +1,26 @@
+# Copy an APK to the indicated directory for preparation with RattlesnakeOS
+#
+module=$1
+mkdir ${module}
+
+cd ${module}
+cp ../Chronus/Android.mk .
+
+# Set the name of this module in Android.mk
+sed -i -e "s/LOCAL_MODULE := Chronus/LOCAL_MODUKE := ${module}/" Android.mk
+
+# Get the name of the APK (we only process a single one)
+FILE=`ls ../../storage/downloads/*apk`
+if [ `ls ../../storage/downloads/*apk|wc -l` -ne 1 ]; then
+  echo "Too many APKs " : ${FILE}
+  exit 1
+fi
+
+# At this point we have the final name of the  APK (remove ' ()')
+LOCAL_FILE=`basename "${FILE}" | sed 's/[ ()]/_/g'`
+
+# Copy the file into place
+mv "${FILE}" ${LOCAL_FILE}
+
+# Set the name of the LOCAL_SRC_FILES in Android.mk
+sed -i -e "s/LOCAL_SRC_FILES := Chronus_Home_Lock_Widgets_v12.4.3_apkpure.com.apk/LOCAL_SRC_FILES := ${LOCAL_FILE}/" Android.mk
