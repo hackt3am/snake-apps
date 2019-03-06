@@ -22,7 +22,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
            "Chronus","DavX5","DejaVuNlp","DynamicPinAppLock","FairEmail",
            "FreedomPop","Goodtime","GoogleVoice","LibreOfficeViewer","MozillaNlpBackend",
            "MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote","NominatimNlpBackend",
-           "OpenVPN","RiotIm","SimpleCalendar","SkyTube","Slide",
+           "OpenVPN","SimpleCalendar","SkyTube","Slide",
            "SpaRSS","Syncthing","TCDrive","TCDropbox","TCWebDAV",
            "Tasks","Termux","TermuxBoot","TermuxWidget","TotalCommander",
            "Wallabag","WiFiPrivacyPolice","YalpStore",
@@ -41,7 +41,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] NeutriNote - Note writing application (uses GSF)
 - [x] Nlp - network location provider ()
 - [x] OpenVPN - VPN Software (no GSF)
-- [x] RiotIm - Universal secure chat application
 - [x] SimpleCalendar - Calendar application (no GSF)
 - [x] SkyTube - A YouTube player ().
 - [x] Slide - Companion app for reddit (no GSF)
@@ -76,6 +75,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - save the entry
 1. Configure GoogleVoice
 1. Install & configure "Keypass2Android Password Safe" from the Yalp Store
+1. Install & configure "Riot.im" from the Yalp Store
 1. Install & configure "Firefox" from the Yalp Store
      - add Privacy Badger add-on
      - add uBlock Origin add-on
