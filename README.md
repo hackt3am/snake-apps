@@ -20,7 +20,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
     [[custom-prebuilts]]
     modules = [
            "Chronus","DavX5","DejaVuNlp","DynamicPinAppLock","FairEmail",
-           "FreedomPop","Goodtime","GoogleVoice","LibreOfficeViewer","MozillaNlpBackend",
+           "FreedomPop","Getfocus","GoogleVoice","LibreOfficeViewer","MozillaNlpBackend",
            "MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote","NominatimNlpBackend",
            "OpenVPN","SimpleCalendar","SkyTube","Slide",
            "SpaRSS","Syncthing","TCDrive","TCDropbox","TCWebDAV",
@@ -58,7 +58,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 ## Free Commercial
 - [x] Chronus - Screen widgets (ads) (uses GSF)
 - [x] Dynamic Pin AppLock - Application locker (no ads) (uses GSF)
-- [x] Goodtime - A productivity timer
+- [x] Getfocus - A productivity timer
 - [x] GoogleVoice - Google Voice (no ads) (uses GSF)
 - [x] Messaging - FreedomPop application (ads) (uses GSF)
 - [x] NetSpeedIndicator - Measure traffic speed (no ads) (no GSF)
@@ -88,12 +88,10 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - configure searx settings>Search>searx.me as the default
      - configure Firefox:privacy "about:config" tweaks using guide at [privacytools.io](https://www.privacytools.io/)
 1. Configure "NetGuard"
-     - configure ad blocking
+     - configure ad blocking (Optional -- refresh the host file to pickup new additions)
           - Enable Settings>Advanced options>Filter traffic.
           - Enable Settings>Advanced options>Block domain names.
           - Settings>Backup>Download hosts file.
-          - Settings>Backup>Import hosts file (append).
-               - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
      - configure SOCKS5 vpn (Settings>Advanced options>SOCKS5)
           - Server name: 109.201.154.251 or 46.166.190.172 or nslookup proxy-nl.privateinternetaccess.com
           - Port number: 1080
