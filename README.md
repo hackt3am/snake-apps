@@ -36,13 +36,13 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Conversations - An encrypted; user friendly XMPP instant messaging client ()
 - [x] DavX5 - CalDAV/CardDAV synchronization (no GSF)
 - [x] FairEmail - Email application
-- [x] LibreOfficeViewer - Microsoft Office document viewer (no GSF)
+- [x] LibreOffice Viewer - Microsoft Office document viewer (no GSF)
 - [x] MuPDFMini - document viewer (PDF, CBZ) (no GSF)
 - [x] NetGuard - manage network access (no GSF)
-- [x] NeutriNote - Note writing application (uses GSF)
+- [x] neutriNote - Note writing application (uses GSF)
 - [x] Nlp - network location provider ()
 - [x] OpenVPN - VPN Software (no GSF)
-- [x] SimpleCalendar - Calendar application (no GSF)
+- [x] Simple Calendar - Calendar application (no GSF)
 - [x] SkyTube - A YouTube player ().
 - [x] Slide - Companion app for reddit (no GSF)
 - [x] SpaRSS - RSS reader ()
@@ -50,19 +50,19 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Tasks - (OpenTasks) Task manager that syncs with DavX5 (no GSF)
 - [x] Termux - Terminal Emulator (no GSF)
 - [x] Wallabag - Read it later app (no GSF)
-- [x] WiFiPrivacyPolice - prevents leaking privacy sensitive information via Wi-Fi networks.
-- [x] YalpStore - Store to download from Google Play Store (no GSF)
+- [x] Wi-Fi Privacy Police - prevents leaking privacy sensitive information via Wi-Fi networks.
+- [x] Yalp Store - Store to download from Google Play Store (no GSF)
 
 ## (non) FDroid Open-source
 - [x] Total Commander - file manager (WebDAV, Drive, TotalDrip) (no GSF)
 
 ## Free Commercial
 - [x] Chronus - Screen widgets (ads) (uses GSF)
-- [x] Dynamic Pin AppLock - Application locker (no ads) (uses GSF)
-- [x] Getfocus - A productivity timer
-- [x] GoogleVoice - Google Voice (no ads) (uses GSF)
+- [x] Dynamic pin app lock - Application locker (no ads) (uses GSF)
+- [x] Get focus - A productivity timer
+- [x] Google Voice - Google Voice (no ads) (uses GSF)
 - [x] Messaging - FreedomPop application (ads) (uses GSF)
-- [x] NetSpeedIndicator - Measure traffic speed (no ads) (no GSF)
+- [x] NetSpeed Indicator - Measure traffic speed (no ads) (no GSF)
 
 
 ***
