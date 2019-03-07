@@ -7,7 +7,7 @@ cd ${module}
 cp ../Chronus/Android.mk .
 
 # Set the name of this module in Android.mk
-sed -i -e "s/LOCAL_MODULE := Chronus/LOCAL_MODUKE := ${module}/" Android.mk
+sed -i -e "s/LOCAL_MODULE := Chronus/LOCAL_MODULE := ${module}/" Android.mk
 
 # Get the name of the APK (we only process a single one)
 FILE=`ls ../../storage/downloads/*apk`
