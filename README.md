@@ -24,9 +24,8 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
            "MozillaNlpBackend","MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote",
            "NominatimNlpBackend","OpenKeychain","OpenVPN","SimpleCalendar","Simpletask",
            "SkyTube","Slide","SpaRSS","Syncthing","TCDrive",
-           "TCDropbox","TCWebDAV","Tasks","Termux","TermuxBoot",
-           "TermuxWidget","TotalCommander","Wallabag","WiFiPrivacyPolice","YalpStore",
-
+           "TCDropbox","TCWebDAV","Termux","TermuxBoot","TermuxWidget",
+           "TotalCommander","Wallabag","WiFiPrivacyPolice","YalpStore",
     ]
     repo = "https://github.com/simmule-turner/snake-apps"
 
