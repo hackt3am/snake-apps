@@ -22,10 +22,11 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
            "Chronus","Conversations","DavX5","DejaVuNlp","DynamicPinAppLock",
            "FairEmail","FreedomPop","Getfocus","GoogleVoice","LibreOfficeViewer",
            "MozillaNlpBackend","MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote",
-           "NominatimNlpBackend","OpenKeychain","OpenVPN","SimpleCalendar","SkyTube","Slide",
-           "SpaRSS","Syncthing","TCDrive","TCDropbox","TCWebDAV",
-           "Tasks","Termux","TermuxBoot","TermuxWidget","TotalCommander",
-           "Wallabag","WiFiPrivacyPolice","YalpStore",
+           "NominatimNlpBackend","OpenKeychain","OpenVPN","SimpleCalendar","Simpletask",
+           "SkyTube","Slide","SpaRSS","Syncthing","TCDrive",
+           "TCDropbox","TCWebDAV","Tasks","Termux","TermuxBoot",
+           "TermuxWidget","TotalCommander","Wallabag","WiFiPrivacyPolice","YalpStore",
+
     ]
     repo = "https://github.com/simmule-turner/snake-apps"
 
@@ -44,6 +45,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] OpenKeychain - OpenPGP encryption
 - [x] OpenVPN - VPN Software (no GSF)
 - [x] Simple Calendar - Calendar application (no GSF)
+- [x] Simpletask - todo.txt - task management
 - [x] SkyTube - A YouTube player ().
 - [x] Slide - Companion app for reddit (no GSF)
 - [x] SpaRSS - RSS reader ()
