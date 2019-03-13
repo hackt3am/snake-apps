@@ -14,18 +14,20 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
         "00001-global-internet-permission-toggle.patch",
         "00002-global-sensors-permission-toggle.patch",
         "00003-disable-menu-entries-in-recovery.patch",
+        "00004-increase-default-maximum-password-length.patch",
     ]
     repo = "https://github.com/RattlesnakeOS/community_patches"
 
     [[custom-prebuilts]]
     modules = [
-           "Chronus","Conversations","DavX5","DejaVuNlp","DynamicPinAppLock",
-           "FairEmail","FreedomPop","Getfocus","GoogleVoice","LibreOfficeViewer",
-           "MozillaNlpBackend","MuPDFMini","NetGuard","NetSpeedIndicator","NeutriNote",
-           "NominatimNlpBackend","OpenKeychain","OpenVPN","SimpleCalendar","Simpletask",
-           "SkyTube","Slide","SpaRSS","Syncthing","TCDrive",
-           "TCDropbox","TCWebDAV","Termux","TermuxBoot","TermuxWidget",
-           "TotalCommander","Wallabag","WiFiPrivacyPolice","YalpStore",
+           "Chronus","DavX5","DejaVuNlp","FreedomPop","Getfocus",
+           "GoogleVoice","K9Mail","LibreOfficeViewer","Markor","MozillaNlpBackend",
+           "MuPDFMini","NetGuard","NetSpeedIndicator","NominatimNlpBackend","OpenKeychain",
+           "OpenVPN","SimpleCalendar","SkyTube","Slide","SpaRSS",
+           "Syncthing","TCDrive","TCDropbox","TCWebDAV","Termux",
+           "TermuxBoot","TermuxWidget","TotalCommander","Wallabag","WiFiPrivacyPolice",
+           "YalpStore",
+
     ]
     repo = "https://github.com/simmule-turner/snake-apps"
 
@@ -33,23 +35,20 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 # Applications for ROM
 
 ## FDroid Open-source
-- [x] Conversations - An encrypted; user friendly XMPP instant messaging client ()
 - [x] DavX5 - CalDAV/CardDAV synchronization (no GSF)
-- [x] FairEmail - Email application
+- [x] K-9 Mail - Email application (no GSF)
 - [x] LibreOffice Viewer - Microsoft Office document viewer (no GSF)
+- [x] Markor - markdown & todo.txt editor (no GSF)
 - [x] MuPDFMini - document viewer (PDF, CBZ) (no GSF)
 - [x] NetGuard - manage network access (no GSF)
-- [x] neutriNote - Note writing application (uses GSF)
 - [x] Nlp - network location provider ()
-- [x] OpenKeychain - OpenPGP encryption
+- [x] OpenKeychain - OpenPGP encryption (no GSF)
 - [x] OpenVPN - VPN Software (no GSF)
 - [x] Simple Calendar - Calendar application (no GSF)
-- [x] Simpletask - todo.txt - task management
 - [x] SkyTube - A YouTube player ().
 - [x] Slide - Companion app for reddit (no GSF)
 - [x] SpaRSS - RSS reader ()
-- [x] Syncthing - file synchronization
-- [x] Tasks - (OpenTasks) Task manager that syncs with DavX5 (no GSF)
+- [x] Syncthing - file synchronization (no GSF)
 - [x] Termux - Terminal Emulator (no GSF)
 - [x] Wallabag - Read it later app (no GSF)
 - [x] Wi-Fi Privacy Police - prevents leaking privacy sensitive information via Wi-Fi networks.
@@ -60,8 +59,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
 ## Free Commercial
 - [x] Chronus - Screen widgets (ads) (uses GSF)
-- [x] Dynamic pin app lock - Application locker (no ads) (uses GSF)
-- [x] Get focus - A productivity timer
+- [x] Get focus - A productivity timer (no GSF)
 - [x] Google Voice - Google Voice (no ads) (uses GSF)
 - [x] Messaging - FreedomPop application (ads) (uses GSF)
 - [x] NetSpeed Indicator - Measure traffic speed (no ads) (no GSF)
@@ -76,20 +74,10 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - goto Settings>Network & internet>Mobile network>Advanced>Access Point Names>+
      - add an APN, FreedomPop, fp.com.attz
      - save the entry
-1. Configure GoogleVoice
+1. Configure "GoogleVoice"
 1. Install & configure "Keypass2Android Password Safe" from the Yalp Store
-1. Install & configure "Riot.im" from the Yalp Store
-1. Install & configure "Firefox" from the Yalp Store
-     - add Privacy Badger add-on
-     - add uBlock Origin add-on
-     - add Cookie AutoDelete add-on
-     - add HTTPS Everywhere add-on
-     - add Decentraleyes add-on
-     - add NoScript Security Suite add-on
-     - add CanvasBlocker add-on
-     - add searx.me add-on
-     - configure searx settings>Search>searx.me as the default
-     - configure Firefox:privacy "about:config" tweaks using guide at [privacytools.io](https://www.privacytools.io/)
+1. Install & configure "Riot.im" from the F-Droid  Store
+1. Install & configure "Brave Browser" from the Yalp Store
 1. Configure "NetGuard"
      - configure ad blocking (Optional -- refresh the host file to pickup new additions)
           - Enable Settings>Advanced options>Filter traffic.
