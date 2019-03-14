@@ -76,8 +76,8 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 1. Configure "GoogleVoice"
 1. Install & configure "Brave Browser" from the Yalp Store
 1. Install & configure "Keypass2Android Password Safe" from the Yalp Store
-     - create directiory /storage/emulated/0/Documents/data
-     - copy configuraton files from gdrive://Notes/* to above directory
+     - create directory /storage/emulated/0/Documents/data
+     - copy configuration files from gdrive://Notes/* to above directory
      - configure applications using this configuration.
 1. Install & configure "Magic Earth" from the Yalp Store
 1. Install & configure "Riot.im" from the F-Droid  Store
