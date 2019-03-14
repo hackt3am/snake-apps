@@ -27,7 +27,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
            "Syncthing","TCDrive","TCDropbox","TCWebDAV","Termux",
            "TermuxBoot","TermuxWidget","TotalCommander","Wallabag","WiFiPrivacyPolice",
            "YalpStore",
-
     ]
     repo = "https://github.com/simmule-turner/snake-apps"
 
@@ -59,7 +58,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
 ## Free Commercial
 - [x] Chronus - Screen widgets (ads) (uses GSF)
-- [x] Get focus - A productivity timer (no GSF)
+- [x] Get focus - A productivity timer (no ads) (no GSF)
 - [x] Google Voice - Google Voice (no ads) (uses GSF)
 - [x] Messaging - FreedomPop application (ads) (uses GSF)
 - [x] NetSpeed Indicator - Measure traffic speed (no ads) (no GSF)
@@ -75,9 +74,13 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - add an APN, FreedomPop, fp.com.attz
      - save the entry
 1. Configure "GoogleVoice"
-1. Install & configure "Keypass2Android Password Safe" from the Yalp Store
-1. Install & configure "Riot.im" from the F-Droid  Store
 1. Install & configure "Brave Browser" from the Yalp Store
+1. Install & configure "Keypass2Android Password Safe" from the Yalp Store
+     - create directiory /storage/emulated/0/Documents/data
+     - copy configuraton files from gdrive://Notes/* to above directory
+     - configure applications using this configuration.
+1. Install & configure "Magic Earth" from the Yalp Store
+1. Install & configure "Riot.im" from the F-Droid  Store
 1. Configure "NetGuard"
      - configure ad blocking (Optional -- refresh the host file to pickup new additions)
           - Enable Settings>Advanced options>Filter traffic.
@@ -93,7 +96,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
            - 149.112.112.112
 1. Configure DNS (no logging) Setting>Network & internet>Advanced>Private DNS>Private DNS provider hostname
      - add "dns9.quad9.net" and press save
-1. Install & configure "Magic Earth" from the Yalp Store
 1. Configure the rest of the applications
 
 ### Optional
