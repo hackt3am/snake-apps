@@ -23,7 +23,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
            "Chronus","DavX5","DejaVuNlp","FreedomPop",
            "GoogleVoice","LibreOfficeViewer","MozillaNlpBackend",
            "MuPDFMini","NetGuard","NetSpeedIndicator","NominatimNlpBackend","OpenKeychain",
-           "OpenVPN","SimpleCalendar","SkyTube","Slide","SpaRSS",
+           "OpenVPN","SimpleCalendar","SkyTube","Slide",
            "Syncthing","TCDrive","TCDropbox","TCWebDAV","Termux",
            "TermuxBoot","TermuxWidget","TotalCommander","Wallabag","WiFiPrivacyPolice",
            "YalpStore",
@@ -44,7 +44,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Simple Calendar - Calendar application (no GSF)
 - [x] SkyTube - A YouTube player ().
 - [x] Slide - Companion app for reddit (no GSF)
-- [x] SpaRSS - RSS reader ()
 - [x] Syncthing - file synchronization (no GSF)
 - [x] Termux - Terminal Emulator (no GSF)
 - [x] Wallabag - Read it later app (no GSF)
