@@ -20,8 +20,8 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
     modules = [
-           "Chronus","DavX5","DejaVuNlp","FreedomPop","Getfocus",
-           "GoogleVoice","K9Mail","LibreOfficeViewer","Markor","MozillaNlpBackend",
+           "Chronus","DavX5","DejaVuNlp","FreedomPop",
+           "GoogleVoice","LibreOfficeViewer","MozillaNlpBackend",
            "MuPDFMini","NetGuard","NetSpeedIndicator","NominatimNlpBackend","OpenKeychain",
            "OpenVPN","SimpleCalendar","SkyTube","Slide","SpaRSS",
            "Syncthing","TCDrive","TCDropbox","TCWebDAV","Termux",
@@ -35,9 +35,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
 ## FDroid Open-source
 - [x] DavX5 - CalDAV/CardDAV synchronization (no GSF)
-- [x] K-9 Mail - Email application (no GSF)
 - [x] LibreOffice Viewer - Microsoft Office document viewer (no GSF)
-- [x] Markor - markdown & todo.txt editor (no GSF)
 - [x] MuPDFMini - document viewer (PDF, CBZ) (no GSF)
 - [x] NetGuard - manage network access (no GSF)
 - [x] Nlp - network location provider ()
@@ -58,7 +56,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
 ## Free Commercial
 - [x] Chronus - Screen widgets (ads) (uses GSF)
-- [x] Get focus - A productivity timer (no ads) (no GSF)
 - [x] Google Voice - Google Voice (no ads) (uses GSF)
 - [x] Messaging - FreedomPop application (ads) (uses GSF)
 - [x] NetSpeed Indicator - Measure traffic speed (no ads) (no GSF)
