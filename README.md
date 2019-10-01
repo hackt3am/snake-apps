@@ -15,6 +15,8 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
         "00002-global-sensors-permission-toggle.patch",
         "00003-disable-menu-entries-in-recovery.patch",
         "00004-increase-default-maximum-password-length.patch",
+        "00006-do-not-require-strong-auth-on-regular-time-interval.patch",
+        "00007-enable_randomize_mac_dev_option.patch",
     ]
     repo = "https://github.com/RattlesnakeOS/community_patches"
 
