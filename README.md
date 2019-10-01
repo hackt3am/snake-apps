@@ -20,11 +20,11 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
     modules = [
-           "Chronus","DavX5","DejaVuNlp","FreedomPop",
+           "Chronus","DejaVuNlp","FreedomPop",
            "GoogleVoice","LibreOfficeViewer","MozillaNlpBackend",
            "MuPDFMini","NetGuard","NetSpeedIndicator","NominatimNlpBackend","OpenKeychain",
            "OpenVPN","SimpleCalendar","SkyTube","Slide",
-           "Syncthing","TCDrive","TCDropbox","TCWebDAV","Termux",
+           "TCDrive","TCDropbox","TCWebDAV","Termux",
            "TermuxBoot","TermuxWidget","TotalCommander","Wallabag","WiFiPrivacyPolice",
            "YalpStore",
     ]
@@ -34,7 +34,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 # Applications for ROM
 
 ## FDroid Open-source
-- [x] DavX5 - CalDAV/CardDAV synchronization (no GSF)
 - [x] LibreOffice Viewer - Microsoft Office document viewer (no GSF)
 - [x] MuPDFMini - document viewer (PDF, CBZ) (no GSF)
 - [x] NetGuard - manage network access (no GSF)
@@ -44,7 +43,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Simple Calendar - Calendar application (no GSF)
 - [x] SkyTube - A YouTube player ().
 - [x] Slide - Companion app for reddit (no GSF)
-- [x] Syncthing - file synchronization (no GSF)
 - [x] Termux - Terminal Emulator (no GSF)
 - [x] Wallabag - Read it later app (no GSF)
 - [x] Wi-Fi Privacy Police - prevents leaking privacy sensitive information via Wi-Fi networks.
