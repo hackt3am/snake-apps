@@ -26,7 +26,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
            "GoogleVoice","LibreOfficeViewer","MozillaNlpBackend",
            "MuPDFMini","NetGuard","NetSpeedIndicator","NominatimNlpBackend","OpenKeychain",
            "OpenVPN","SimpleCalendar","SkyTube","Slide",
-           "TCDrive","TCDropbox","TCWebDAV","Termux",
+           "TCDrive","TCWebDAV","Termux",
            "TermuxBoot","TermuxWidget","TotalCommander","Wallabag","WiFiPrivacyPolice",
            "YalpStore",
     ]
@@ -51,7 +51,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Yalp Store - Store to download from Google Play Store (no GSF)
 
 ## (non) FDroid Open-source
-- [x] Total Commander - file manager (WebDAV, Drive, TotalDrip) (no GSF)
+- [x] Total Commander - file manager (WebDAV, Drive) (no GSF)
 
 ## Free Commercial
 - [x] Chronus - Screen widgets (ads) (uses GSF)
@@ -70,13 +70,14 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - add an APN, FreedomPop, fp.com.attz
      - save the entry
 1. Configure "GoogleVoice"
+1. Configure "Total Commander"
 1. Install & configure "Brave Browser" from the Yalp Store
 1. Install & configure "Keypass2Android Password Safe" from the Yalp Store
      - create directory /storage/emulated/0/Documents/data
      - copy configuration files from gdrive://Notes/* to above directory
      - configure applications using this configuration.
 1. Install & configure "Magic Earth" from the Yalp Store
-1. Install & configure "Riot.im" from the F-Droid  Store
+1. Install & configure "Conversations" from the F-Droid  Store
 1. Configure "NetGuard"
      - configure ad blocking (Optional -- refresh the host file to pickup new additions)
           - Enable Settings>Advanced options>Filter traffic.
