@@ -36,7 +36,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 # Applications for ROM
 
 ## FDroid Open-source
-- [x] LibreOffice Viewer - Microsoft Office document viewer (no GSF)
 - [x] NetGuard - manage network access (no GSF)
 - [x] Nlp - network location provider ()
 - [x] OpenKeychain - OpenPGP encryption (no GSF)
@@ -56,6 +55,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Chronus - Screen widgets (ads) (uses GSF)
 - [x] Google Voice - Google Voice (no ads) (uses GSF)
 - [x] Messaging - FreedomPop application (ads) (uses GSF)
+- [x] NDocs - PDF/Office document viewer (uses GSF)
 - [x] NetSpeed Indicator - Measure traffic speed (no ads) (no GSF)
 
 
