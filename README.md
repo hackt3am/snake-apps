@@ -23,8 +23,8 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
     [[custom-prebuilts]]
     modules = [
            "Chronus","DejaVuNlp","FreedomPop",
-           "GoogleVoice","LibreOfficeViewer","MozillaNlpBackend",
-           "MuPDFMini","NetGuard","NetSpeedIndicator","NominatimNlpBackend","OpenKeychain",
+           "GoogleVoice","MozillaNlpBackend",
+           "NetGuard","NetSpeedIndicator","NominatimNlpBackend","OpenKeychain",
            "OpenVPN","SimpleCalendar","SkyTube","Slide",
            "TCDrive","TCWebDAV","Termux",
            "TotalCommander","Wallabag","WiFiPrivacyPolice",
@@ -37,7 +37,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
 ## FDroid Open-source
 - [x] LibreOffice Viewer - Microsoft Office document viewer (no GSF)
-- [x] MuPDFMini - document viewer (PDF, CBZ) (no GSF)
 - [x] NetGuard - manage network access (no GSF)
 - [x] Nlp - network location provider ()
 - [x] OpenKeychain - OpenPGP encryption (no GSF)

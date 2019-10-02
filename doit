@@ -23,4 +23,4 @@ LOCAL_FILE=`basename "${FILE}" | sed 's/[ ()]/_/g'`
 mv "${FILE}" ${LOCAL_FILE}
 
 # Set the name of the LOCAL_SRC_FILES in Android.mk
-sed -i -e "s/LOCAL_SRC_FILES := Chronus_Home_Lock_Widgets_v12.4.3_apkpure.com.apk/LOCAL_SRC_FILES := ${LOCAL_FILE}/" Android.mk
+sed -i -e "s/LOCAL_SRC_FILES := com.dvtonder.chronus_193443_apps.evozi.com.apk/LOCAL_SRC_FILES := ${LOCAL_FILE}/" Android.mk
