@@ -23,7 +23,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
     [[custom-prebuilts]]
     modules = [
            "Chronus","DejaVuNlp","FreedomPop",
-           "GoogleVoice","MozillaNlpBackend",
+           "GoogleVoice","MozillaNlpBackend","NDocs",
            "NetGuard","NetSpeedIndicator","NominatimNlpBackend","OpenKeychain",
            "OpenVPN","SimpleCalendar","SkyTube","Slide",
            "TCDrive","TCWebDAV","Termux",
