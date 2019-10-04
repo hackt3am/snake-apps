@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := SimpleCalendar
-LOCAL_SRC_FILES := com.simplemobiletools.calendar.pro_158.apk
+LOCAL_SRC_FILES := com.simplemobiletools.calendar.pro_159.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := PRESIGNED
