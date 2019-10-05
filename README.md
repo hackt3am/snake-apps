@@ -25,7 +25,7 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
            "Chronus","DejaVuNlp","FreedomPop",
            "GoogleVoice","MozillaNlpBackend","NDocs",
            "NetGuard","NetSpeedIndicator","NominatimNlpBackend","OpenKeychain",
-           "OpenVPN","SimpleCalendar","SkyTube","Slide",
+           "OpenVPN","SimpleCalendar","SkyTube",
            "TCDrive","TCWebDAV","Termux",
            "TotalCommander","Wallabag","WiFiPrivacyPolice",
            "YalpStore",
