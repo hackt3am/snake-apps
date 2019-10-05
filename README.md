@@ -22,12 +22,12 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
     [[custom-prebuilts]]
     modules = [
-           "Chronus","DejaVuNlp","FreedomPop",
+           "DejaVuNlp","FreedomPop",
            "GoogleVoice","MozillaNlpBackend","NDocs",
            "NetGuard","NetSpeedIndicator","NominatimNlpBackend","OpenKeychain",
-           "OpenVPN","SimpleCalendar","SkyTube",
+           "OpenVPN","SimpleCalendar",
            "TCDrive","TCWebDAV","Termux",
-           "TotalCommander","Wallabag","WiFiPrivacyPolice",
+           "TotalCommander","WiFiPrivacyPolice",
            "YalpStore",
     ]
     repo = "https://github.com/simmule-turner/snake-apps"
@@ -37,13 +37,11 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 
 ## FDroid Open-source
 - [x] NetGuard - manage network access (no GSF)
-- [x] Nlp - network location provider ()
+- [x] Nlp - network location provider (unknown)
 - [x] OpenKeychain - OpenPGP encryption (no GSF)
 - [x] OpenVPN - VPN Software (no GSF)
 - [x] Simple Calendar - Calendar application (no GSF)
-- [x] SkyTube - A YouTube player ().
 - [x] Termux - Terminal Emulator (no GSF)
-- [x] Wallabag - Read it later app (no GSF)
 - [x] Wi-Fi Privacy Police - prevents leaking privacy sensitive information via Wi-Fi networks.
 - [x] Yalp Store - Store to download from Google Play Store (no GSF)
 
@@ -51,7 +49,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] Total Commander - file manager (WebDAV, Drive) (no GSF)
 
 ## Free Commercial
-- [x] Chronus - Screen widgets (ads) (uses GSF)
 - [x] Google Voice - Google Voice (no ads) (uses GSF)
 - [x] Messaging - FreedomPop application (ads) (uses GSF)
 - [x] NDocs - PDF/Office document viewer (uses GSF)
@@ -69,13 +66,11 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
      - save the entry
 1. Configure "GoogleVoice"
 1. Configure "Total Commander"
-1. Install & configure "Brave Browser" from the Yalp Store
 1. Install & configure "Keypass2Android Password Safe" from the Yalp Store
      - create directory /storage/emulated/0/Documents/data
      - copy configuration files from gdrive://Notes/* to above directory
      - configure applications using this configuration.
-1. Install & configure "Magic Earth" from the Yalp Store
-1. Install & configure "Conversations" from the F-Droid  Store
+1. Install & configure "Conversations" from the F-Droid Store
 1. Configure "NetGuard"
      - configure ad blocking (Optional -- refresh the host file to pickup new additions)
           - Enable Settings>Advanced options>Filter traffic.
@@ -97,3 +92,9 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 1. Install "Shelter" from F-Droid Store
      - Clone "Chromium" to Work Profile
      - Install & configure other "restricted" applications
+       - "Brave Browser" - Yalp Store
+       - "Magic Earth" - Yalp Store
+       - "Slide" - F-Droid Store
+       - "SkyTube" - F-Droid Store
+       - "Wallabag" - F-Droid Store
+       
