@@ -42,7 +42,6 @@ Add the following lines to the end of your '.rattlesnakeos.toml' file.
 - [x] OpenVPN - VPN Software (no GSF)
 - [x] Simple Calendar - Calendar application (no GSF)
 - [x] SkyTube - A YouTube player ().
-- [x] Slide - Companion app for reddit (no GSF)
 - [x] Termux - Terminal Emulator (no GSF)
 - [x] Wallabag - Read it later app (no GSF)
 - [x] Wi-Fi Privacy Police - prevents leaking privacy sensitive information via Wi-Fi networks.
