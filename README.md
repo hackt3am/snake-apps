@@ -1,5 +1,13 @@
 These are modules that I include as part of my special build of RattleSnakeOS.
 Add the following lines to the end of your '.rattlesnakeos.toml' file.
+***
+The below are the commands used to execute the build process.
+```
+rattlesnakeos-stack.exe deploy - deploy .rattlesnakeos.toml
+rattlesnakeos-stack.exe build start --force-build - force a build
+rattlesnakeos-stack.exe build list - list running builds
+```
+***
 
     [[custom-patches]]
     patches = ["00002-microg-sigspoof.patch"]
