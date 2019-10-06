@@ -36,7 +36,6 @@ rattlesnakeos-stack.exe build list - list running builds
            "OpenVPN","SimpleCalendar",
            "TCDrive","TCWebDAV","Termux",
            "TotalCommander","WiFiPrivacyPolice",
-           "YalpStore",
     ]
     repo = "https://github.com/simmule-turner/snake-apps"
 
@@ -51,7 +50,6 @@ rattlesnakeos-stack.exe build list - list running builds
 - [x] Simple Calendar - Calendar application (no GSF)
 - [x] Termux - Terminal Emulator (no GSF)
 - [x] Wi-Fi Privacy Police - prevents leaking privacy sensitive information via Wi-Fi networks.
-- [x] Yalp Store - Store to download from Google Play Store (no GSF)
 
 ## (non) FDroid Open-source
 - [x] Total Commander - file manager (WebDAV, Drive) (no GSF)
@@ -61,7 +59,6 @@ rattlesnakeos-stack.exe build list - list running builds
 - [x] Messaging - FreedomPop application (ads) (uses GSF)
 - [x] NDocs - PDF/Office document viewer (uses GSF)
 - [x] NetSpeed Indicator - Measure traffic speed (no ads) (no GSF)
-
 
 ***
 ## Configuration
@@ -74,10 +71,10 @@ rattlesnakeos-stack.exe build list - list running builds
      - save the entry
 1. Configure "GoogleVoice"
 1. Configure "Total Commander"
-1. Install & configure "Keypass2Android Password Safe" from the Yalp Store
      - create directory /storage/emulated/0/Documents/data
      - copy configuration files from gdrive://Notes/* to above directory
      - configure applications using this configuration.
+1. Install & configure "KeePass DX" from the F-Droid Store
 1. Install & configure "Conversations" from the F-Droid Store
 1. Configure "NetGuard"
      - configure ad blocking (Optional -- refresh the host file to pickup new additions)
@@ -105,4 +102,3 @@ rattlesnakeos-stack.exe build list - list running builds
        - "Slide" - F-Droid Store
        - "SkyTube" - F-Droid Store
        - "Wallabag" - F-Droid Store
-       
