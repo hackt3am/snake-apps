@@ -34,7 +34,7 @@ rattlesnakeos-stack.exe build list - list running builds
            "GoogleVoice","MozillaNlpBackend","NDocs",
            "NetGuard","NetSpeedIndicator","NominatimNlpBackend","OpenKeychain",
            "OpenVPN","SimpleCalendar",
-           "TCDrive","TCWebDAV","Termux",
+           "TCDrive","TCWebDAV","TCWiFi","Termux",
            "TotalCommander","WiFiPrivacyPolice",
     ]
     repo = "https://github.com/simmule-turner/snake-apps"
@@ -52,7 +52,7 @@ rattlesnakeos-stack.exe build list - list running builds
 - [x] Wi-Fi Privacy Police - prevents leaking privacy sensitive information via Wi-Fi networks.
 
 ## (non) FDroid Open-source
-- [x] Total Commander - file manager (WebDAV, Drive) (no GSF)
+- [x] Total Commander - file manager (Google Drive, WebDAV, WiFi) (no GSF)
 
 ## Free Commercial
 - [x] Google Voice - Google Voice (no ads) (uses GSF)
