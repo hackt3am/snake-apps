@@ -70,7 +70,7 @@ rattlesnakeos-stack.exe build list - list running builds
      - goto Settings>Network & internet>Mobile network>Advanced>Access Point Names>+
      - add an APN, FreedomPop, fp.com.attz
      - save the entry
-1. Configure "GoogleVoice"
+1. Configure "Hangouts"
 1. Configure "Total Commander"
      - create directory /storage/emulated/0/Documents/data
      - copy configuration files from gdrive://Notes/* to above directory
