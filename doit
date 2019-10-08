@@ -4,10 +4,10 @@ module=$1
 mkdir ${module}
 
 cd ${module}
-cp ../Chronus/Android.mk .
+cp ../DejaVuNlp/Android.mk .
 
 # Set the name of this module in Android.mk
-sed -i -e "s/LOCAL_MODULE := Chronus/LOCAL_MODULE := ${module}/" Android.mk
+sed -i -e "s/LOCAL_MODULE := DejaVuNlp/LOCAL_MODULE := ${module}/" Android.mk
 
 # Get the name of the APK (we only process a single one)
 FILE=`ls ../../storage/downloads/*apk`
@@ -23,4 +23,4 @@ LOCAL_FILE=`basename "${FILE}" | sed 's/[ ()]/_/g'`
 mv "${FILE}" ${LOCAL_FILE}
 
 # Set the name of the LOCAL_SRC_FILES in Android.mk
-sed -i -e "s/LOCAL_SRC_FILES := com.dvtonder.chronus_193443_apps.evozi.com.apk/LOCAL_SRC_FILES := ${LOCAL_FILE}/" Android.mk
+sed -i -e "s/LOCAL_SRC_FILES := org.fitchfamily.android.dejavu_21.apk/LOCAL_SRC_FILES := ${LOCAL_FILE}/" Android.mk

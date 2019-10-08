@@ -31,7 +31,7 @@ rattlesnakeos-stack.exe build list - list running builds
     [[custom-prebuilts]]
     modules = [
            "DejaVuNlp","FreedomPop",
-           "GoogleVoice","MozillaNlpBackend","NDocs",
+           "Hangouts","HangoutsDialer","MozillaNlpBackend","NDocs",
            "NetGuard","NetSpeedIndicator","NominatimNlpBackend","OpenKeychain",
            "OpenVPN","SimpleCalendar",
            "TCDrive","TCWebDAV","TCWiFi","Termux",
@@ -55,7 +55,8 @@ rattlesnakeos-stack.exe build list - list running builds
 - [x] Total Commander - file manager (Google Drive, WebDAV, WiFi) (no GSF)
 
 ## Free Commercial
-- [x] Google Voice - Google Voice (no ads) (uses GSF)
+- [x] Hangouts - Hangouts (no ads) (uses GSF)
+- [x] HangoutsDialer - Hangouts Dialer (no ads) (uses GSF)
 - [x] Messaging - FreedomPop application (ads) (uses GSF)
 - [x] NDocs - PDF/Office document viewer (uses GSF)
 - [x] NetSpeed Indicator - Measure traffic speed (no ads) (no GSF)
@@ -98,7 +99,7 @@ rattlesnakeos-stack.exe build list - list running builds
      - Clone "Chromium" to Work Profile
      - Install & configure other "restricted" applications
        - "Brave Browser" - Yalp Store
+       - "GApps Browser" - F-Droid Store
+       - "WebApps Sandboxed Browser" - F-Droid Store
+         (DuckDuckGo, Hacker News, reddit, guerrill mail)
        - "Magic Earth" - Yalp Store
-       - "Slide" - F-Droid Store
-       - "SkyTube" - F-Droid Store
-       - "Wallabag" - F-Droid Store
